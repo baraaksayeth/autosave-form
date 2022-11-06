@@ -1,0 +1,34 @@
+{
+  "name": "autosave-form",
+  "version": "1.0.0",
+  "description": "Automatic save for form data",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "dev": "tsc --watch",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baraaksayeth/autosave-form.git"
+  },
+  "keywords": [
+    "autosave",
+    "form",
+    "autocomplete"
+  ],
+  "author": "baraaksayeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baraaksayeth/autosave-form/issues"
+  },
+  "homepage": "https://github.com/baraaksayeth/autosave-form#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
